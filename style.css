@@ -1,18 +1,55 @@
-footer{
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+body{
+    background-color: rgb(57, 57, 185);
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 20px;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+    list-style: none;
+}
+
+.header > li > a > img{
+    width: 100px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
 }
 
 h1{
     text-align: center;
-    margin-top: 30px;
-}
-
-header{
-    position: fixed;
-    top: 0px
 }
 
 img{
@@ -33,14 +70,38 @@ img{
     margin: 10px;
 }
 
-body{
-    background-color: rgb(57, 57, 185);
+.container > div > a#jl2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
+
 
 p{
     color: #fff;
 }
 
-a{   
+a{
     color: #fff;
+    padding: 10px 10px 10px 0px;
+}
+
+.footer-link1 > img{
+    width: 22px;
+    margin-right: 10px;
+}
+
+.footer-link1{
+    display: flex;
+    margin: 10px;
+}
+
+.footer-link2 > img{
+    width: 22px;
+    margin-right: 10px;
+}
+
+.footer-link2{
+    display: flex;
+    margin: 10px;
 }

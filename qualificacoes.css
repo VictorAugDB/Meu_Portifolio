@@ -1,0 +1,14 @@
+.header{
+    margin-bottom: 100px;
+}
+
+.lista{
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.lista li{
+    flex: 1 1 200px;
+    margin: 10px;
+}
